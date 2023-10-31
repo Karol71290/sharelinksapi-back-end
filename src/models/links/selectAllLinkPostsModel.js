@@ -26,6 +26,7 @@ const selectAllLinkPostsModel = async ({
                 L.favicon,
                 L.image,
                 L.url, 
+                U.avatar,
                 U.username,
                 BIT_OR(V.userId = ?) AS votedByMe, 
                 L.userId = ? AS owner,
